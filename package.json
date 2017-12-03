@@ -1,0 +1,25 @@
+{
+  "name": "postabot",
+  "version": "1.0.0",
+  "description": "Server side application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devayansarkar/postabot.git"
+  },
+  "author": "Devayan Sarkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devayansarkar/postabot/issues"
+  },
+  "homepage": "https://github.com/devayansarkar/postabot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "request": "^2.81.0"
+  }
+}
